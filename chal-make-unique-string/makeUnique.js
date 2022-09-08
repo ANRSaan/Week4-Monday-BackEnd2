@@ -11,3 +11,7 @@ const makeUnique = string => {
 }
 
 console.log(makeUnique('helloworld'))
+
+// For a faster way, make 2 dictionaries: letter to number and numer to letter, and compare against those.
+
+// For a frickin' cool way, do it with code points with only math.
